@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Minicurso Bootstrap 3</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/style.css">
+</head>
+<body class="container">
+	<header class="row">
+		<img class="col-xs-12" src="images/banner.png">
+		<nav class="col-xs-12">
+			<ul class="nav nav-pills">
+				<li class="active"><a href="#">Home</a></li>
+				<li class="dropdown"><a href="#" data-toggle="dropdown">Categorias <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Hardware</a></li>
+						<li><a href="#">Smartphones</a></li>
+						<li><a href="#">Periféricos</a></li>
+						<li><a href="#">Computadores</a></li>
+						<li><a href="#">Placas de vídeo</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Sobre Nós</a></li>
+				<li><a href="#">Carrinho</a></li>
+				<li><a href="#">Login</a></li>
+				<li><input type="text" name="pesquisa"><button>OK</button></li>
+			</ul>
+		</nav>	
+	</header>
+	<section class="row">
+		<header class="col-xs-12">
+			<img class="banner col-xs-12" src="images/no-banner.jpg">
+		</header>
+		<aside class="pull-left col-xs-3 hidden-xs">
+			<div class="list-group">
+				<a href="#" class="list-group-item">Hardware</a>
+				<a href="#" class="list-group-item">Smartphones</a>
+				<a href="#" class="list-group-item">Periféricos</a>
+				<a href="#" class="list-group-item">Computadores</a>
+				<a href="#" class="list-group-item">Placas de vídeo</a>
+			</div>
+		</aside>
+		<div class="col-xs-9 col-sm-6">
+			<div>
+				<img class="col-xs-12" src="images/no-image.png">
+			</div>
+			<div>
+				<span class="product-name col-xs-12">Produto</span>
+				<span class="product-price col-xs-12">R$ 200,00</span>
+				<a href="#" class="btn btn-info col-xs-8">+ Detalhes</a>
+			</div>
+		</div>
+	</section>
+	<footer>
+		Copyright &copy;
+	</footer>
+	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
