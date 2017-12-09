@@ -1,19 +1,23 @@
 # Minicurso de Bootstrap 3.3
 Minicurso de Bootstrap apresentado à FATEC Jahu em 2017
 
-## Temas abordados
-1. Como funciona o sistema de grid do bootstrap e como utilizá-lo para ganhar tempo.
+## Temas que serão abordados
+1. O que é Bootstrap?
 
-2. Estilizando formulários e tabelas
+2. Vantagens e desvantagens
 
-3. Estados do sistema usados como referência para mensagens e botões
+3. Recursos
 
-4. Paginação e Page header
+4. Sistema de Grid
 
-5. Badges
+5. Formulários e tabelas
 
-6. Menus
+6. Estados do sistema
 
-7. Glyphicons
+7. Page header e paginação
 
-8. Montar uma página de perfil responsiva
+8. Menus
+
+9. Glyphicons
+
+10. Customizações
